@@ -1,8 +1,14 @@
+import java.util.Scanner;
+
 /**
  * Main
  */
 public class Main {
  public static void main(String[] args) {
-   System.out.println("hello");
+   Scanner scanner = new Scanner(System.in);
+
+   System.out.println("Enter yout age");
+   System.out.println("My age is :" + scanner.next());
+   scanner.close();
  }
 }
